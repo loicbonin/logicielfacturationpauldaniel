@@ -12,6 +12,7 @@ namespace logicielfactpdaniel
         public MainPage()
         {
             InitializeComponent();
+            //test
         }
     }
 }
