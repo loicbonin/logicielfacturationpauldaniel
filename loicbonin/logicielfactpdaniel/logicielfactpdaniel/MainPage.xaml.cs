@@ -12,7 +12,19 @@ namespace logicielfactpdaniel
         public MainPage()
         {
             InitializeComponent();
-            //test
+
+            double CalculatePyramidVolume(double baseArea, double height)
+            {
+                double volume = NewMethod(baseArea, height);
+                return volume;
+            }
         }
+
+        private static double NewMethod(double baseArea, double height)
+        {
+            return (baseArea * height) / 3;
+        }
+
+
     }
 }
